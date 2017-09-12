@@ -10,8 +10,8 @@ public class Main {
 		//Please check that your code works and has no 
 		//compilation problems before to submit
 		 String valuee="25/04/2013";
-	     Date currentDate =new SimpleDateFormat("dd/MM/yyyy").parse(valuee);
-		Student student= new Student(123,"Harsha",currentDate,235.24);
+	     Date cd =new SimpleDateFormat("dd/MM/yyyy").parse(valuee);
+		Student student= new Student(5556,"tej",cd,235.24);
 		StudentGroup sg = new StudentGroup(1);
 		sg.addFirst(student);
 	}
